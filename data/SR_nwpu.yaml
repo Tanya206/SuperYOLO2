@@ -1,0 +1,17 @@
+# data/SR_nwpu.yaml
+# The text files contain relative paths (e.g., "train/645.jpg")
+train: dataset/NWPU_VHR10_1024/train.txt
+val: dataset/NWPU_VHR10_512/test.txt
+
+nc: 10
+names:
+  - airplane
+  - ship
+  - storage tank
+  - baseball diamond
+  - tennis court
+  - basketball court
+  - ground track field
+  - harbor
+  - bridge
+  - vehicle
